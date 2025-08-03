@@ -22,8 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-      "build": "npm install --legacy-peer-deps && react-scripts build"
+    "eject": "react-scripts eject",
+    "build": "npm install --legacy-peer-deps && react-scripts build"
   },
   "browserslist": [
     ">0.2%",
