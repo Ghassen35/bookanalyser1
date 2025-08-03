@@ -171,7 +171,7 @@ export default function App() {
 
   // --- API Call ---
   const callGeminiAPI = useCallback(async (prompt, isJson = false) => {
-    const apiKey = "YOUR_API_KEY_HERE"; // <-- ضع مفتاح API الخاص بك هنا
+    const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // <-- ضع مفتاح API الخاص بك هنا
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`;
 
     const payload = {
