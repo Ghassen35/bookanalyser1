@@ -49,7 +49,7 @@ import {
 
 // إعدادات Firebase الخاصة بمشروعك
 const firebaseConfig = {
-  apiKey: "AIzaSyDqq63Uzx1FZbPr--FmygOS_bQQjVdzO5A",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "books-ai-analyser.firebaseapp.com",
   projectId: "books-ai-analyser",
   storageBucket: "books-ai-analyser.appspot.com",
